@@ -9,11 +9,14 @@
     ]
   },
   "watch": [
+    "assets/scripts/**/*.js",
+    "assets/styles/**/*.scss",
     "templates/**/*.php",
     "src/**/*.php"
+
   ],
-  "publicPath": "/app/themes/sage",
-  "devUrl": "https://example.dev",
+  "publicPath": "/app/themes/jc-sage",
+  "devUrl": "http://jc-roots.dev/",
   "proxyUrl": "https://localhost:3000",
   "cacheBusting": "[name]_[hash:8]"
 }
